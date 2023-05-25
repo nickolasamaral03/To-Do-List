@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to left, #D1C694, #e9e5d4a9);
+}
+
+.container{
+    text-align: center;
+    margin-top: 70px;
+    border: 2px solid maroon;
+    width: 50%;
+    display: block;
+    margin: auto;
+    height: 200px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #EAA260, #E6C3A3, #B3987F);
+   
+}
+
+.new-task-container{
+    margin-top: -106px;
+}
+
+img {
+    height: 100px;
+    margin-left: -540px;
+    margin-top: 4%;
+    border-radius: 50%;
+}
+
+h1{
+    font-size: 2.2rem;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+
+
+.new-task-input{
+    height: 40px;
+    width: 50%;
+    font-size: 1.2rem;
+    border: 0 solid black;
+    border-radius: 8px;
+    background-color: #ecddcf;
+    border: none;
+    outline: 0;
+}
+
+.new-task-button{
+    height: 40px;
+    width: 15%;
+    margin-left: 8px;
+    border-radius: 8px;
+    border: 1px solid;
+    font-size: 1.0rem;
+    text-align: center;
+}
+
+.new-task-button:hover{
+    cursor: pointer;
+}
+
+
+.tasks-container{
+    background-color: #fff;
+    padding: 30px 20px;
+    margin-top: 30px;
+    margin-left: 390px;
+    border-radius: 10px;
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.514);
+
+}
+
+.task-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    margin-top: 6px;
+}
+
+.task-item i{
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.task-item i:hover{
+    cursor: pointer;
+    color: red;
+    transition: 0.3s;
+}
+
+.error{
+    border: 2px solid red !important;
+}
+
+.error::placeholder{
+    color: red;
+}
+
+.completed{
+    text-decoration: line-through;
+}
+
+
+    
+    
+
+    
